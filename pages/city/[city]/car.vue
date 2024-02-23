@@ -4,3 +4,11 @@
     <NuxtPage />
   </div>
 </template>
+
+<script setup>
+const route = useRoute();
+useHead({
+  title: `${route.params.make ? toLowerCase() : "Cars"}
+   in ${route.params.city.toLowerCase()}`,
+});
+</script>

@@ -4,3 +4,7 @@
     <SearchBar />
    </div> 
 </template>
+
+<script setup>
+
+</script>

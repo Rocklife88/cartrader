@@ -1,12 +1,12 @@
 <template>
-    <div class="flex h-full">
+    <div class="flex ">
       <div class="shadow border w-full overflow-hidden mb-5 cursor-pointer h-[200px]">
-        <div class="flex h-full">
-          <img
-            class="w-full h-full"
-            src="https://cdnwp.dealerk.com/21093851/uploads/sites/2/2022/12/toyota-aygo-x-2022-promo.jpg"
+        <div class="flex ">
+           <img
+            class="w-full h-7 img-fluid"
+            src="https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2023/11/toyota-yaris-cross-2024-3229764.jpg"
             alt="Unsplash Image"
-          />
+          /> 
           <div class="p-4 flex flex-col">
             <div>
                 <h1 class=" text-2xl text-blue-700">Toyota Hybrid</h1>
@@ -24,6 +24,12 @@
   </script>
   
   <style scoped>
+  .width{
+    width:500px;
+    max-width:600px;
+    min-width:350px;
+
+  }
 
   </style>
   
