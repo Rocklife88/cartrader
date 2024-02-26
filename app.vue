@@ -1,9 +1,8 @@
 <template>
   <div class="flex flex-col h-screen">
-    <Header/>
-    <NuxtPage />
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
   </div>
-
 </template>
-<script setup>
-</script>
+<script setup></script>

@@ -6,5 +6,15 @@
 </template>
 
 <script setup>
+useHead({
+   title:"Cartrader"
+})
 
+const handleSearch = () =>{
+    if(!city.value){
+      return cityError.value=true
+    }
+   navigateTo(`/city/${city.value}/car`)
+   console.log('search activate')
+  }
 </script>
