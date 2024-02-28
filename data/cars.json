@@ -1,0 +1,153 @@
+[
+    {
+      "id": 1,
+      "name": "Range Rover Sport",
+      "price": "84,777",
+      "url": "https://www.carhelpcanada.com/wp-content/uploads/2019/12/2020-Range-Rover-Evoque-2.jpg",
+      "seats": 5,
+      "miles": "14,666",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam!"
+    },
+    {
+      "id": 2,
+      "name": "Rolls Royce Ghost",
+      "price": "455,000",
+      "url": "https://robbreport.com/wp-content/uploads/2021/03/1-5.jpg?w=1000",
+      "seats": 5,
+      "miles": "53,666",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus"
+    },
+    {
+      "id": 3,
+      "name": "Porsche Taycan",
+      "price": "180,434",
+      "url": "https://www.topgear.com/sites/default/files/cars-car/carousel/2021/02/pcgb20_1441_fine.jpg",
+      "seats": 5,
+      "miles": "0",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 4,
+      "name": "Mercedes-Benz GLE",
+      "price": "76,995",
+      "url": "https://www.mercedes-benz.ca/passengercars/mercedes-benz-vehicles/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile_3/image.MQ6.6.20210413084402.jpeg",
+      "seats": 5,
+      "miles": "9,999",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 5,
+      "name": "BMW X5",
+      "price": "67,895",
+      "url": "https://cdn.bmwblog.com/wp-content/uploads/2018/10/BMW-X5-F15-Frozen-Grey-04.jpg",
+      "seats": 5,
+      "miles": "20,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 6,
+      "name": "Audi Q7",
+      "price": "64,400",
+      "url": "https://st.motortrend.com/uploads/sites/5/2018/07/2018-Audi-Q7-20T-quattro-front-three-quarter-in-motion-05.jpg",
+      "seats": 7,
+      "miles": "12,345",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 7,
+      "name": "Tesla Model X",
+      "price": "89,990",
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/2023-tesla-model-x-mmp-1-1617712331.jpg",
+      "seats": 7,
+      "miles": "15,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 8,
+      "name": "Lamborghini Urus",
+      "price": "218,009",
+      "url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lamborghini-urus-2021-exterior-166-1620149799.jpg",
+      "seats": 5,
+      "miles": "8,888",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 9,
+      "name": "Ferrari 488 GTB",
+      "price": "325,000",
+      "url": "https://st.motortrend.com/uploads/sites/5/2017/08/2016-Ferrari-488-GTB-front-three-quarter-in-motion-021.jpg",
+      "seats": 2,
+      "miles": "5,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 10,
+      "name": "Bentley Bentayga",
+      "price": "245,000",
+      "url": "https://www.bentleymotors.com/content/dam/bentley/naft/bentayga/2021/model_overview_images/gallery/Bentayga-Model-Overview-Gallery-21.jpg",
+      "seats": 5,
+      "miles": "10,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 11,
+      "name": "McLaren 720S",
+      "price": "315,000",
+      "url": "https://cdn.motor1.com/images/mgl/5vRE6/s1/2021-mclaren-720s.jpg",
+      "seats": 2,
+      "miles": "2,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 12,
+      "name": "Bugatti Chiron",
+      "price": "3,000,000",
+      "url": "https://www.thesupercarblog.com/wp-content/uploads/2021/06/Bugatti-Chiron-001.jpg",
+      "seats": 2,
+      "miles": "500",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 13,
+      "name": "Lexus LX 570",
+      "price": "97,030",
+      "url": "https://www.lexus.com/cm-img/vehicles/gallery/lx/2023/lx/gallery-02.jpg",
+      "seats": 8,
+      "miles": "7,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 14,
+      "name": "Maserati Levante",
+      "price": "75,000",
+      "url": "https://www.maserati.com/maserati-international/-/media/maserati-site/images/configurator/car/models/levante/levante/2022/MY22_Levante_Blu_Nobile_Wide_001.png",
+      "seats": 5,
+      "miles": "12,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    },
+    {
+      "id": 15,
+      "name": "Aston Martin DBX",
+      "price": "189,000",
+      "url": "https://i.ytimg.com/vi/QzheP6RwQYM/maxresdefault.jpg",
+      "seats": 5,
+      "miles": "3,000",
+      "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+    }
+  ]
+  

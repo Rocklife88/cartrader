@@ -1,5 +1,7 @@
 <template>
-  <div class=" md:flex space-y-6 mt-20 container w-full mx-auto align-items-center justify-center p-4">
+  <div
+    class="md:flex space-y-6 mt-20 container w-full mx-auto align-items-center justify-center p-4"
+  >
     <SideInformationCard />
     <NuxtPage />
   </div>
@@ -13,6 +15,6 @@ useHead({
 });
 
 definePageMeta({
-  layout:"default"
-})
+  layout: "default",
+});
 </script>
