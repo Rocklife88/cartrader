@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center h-full">
-    <div class="shadow border overflow-hidden cursor-pointer w-full md:w-[80%] lg:w-[60%]">
+    <div class="shadow border overflow-hidden cursor-pointer w-full md:w-[80%] lg:w-[60%]" @click="navigateTo(`/car/${car.name}-${car.id}`);">
       <div class="flex items-center space-x-2 flex-col md:flex-row">
         <img
           class="object-cover h-full md:h-full w-lg md:w-1/2 p-2"
@@ -26,6 +26,7 @@ const props = defineProps({
   car:Object,
   
 });
+
 
 
 </script>

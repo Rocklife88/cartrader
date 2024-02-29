@@ -13,7 +13,7 @@
           {{ error.message }}
         </div>
         <button
-          @click="goHome"
+          @click="handleError"
           class="bg-blue 200 px-8 py-3 text-white rounded-sm bg-sky-400"
         >
           Go Back
@@ -24,9 +24,12 @@
 </template>
 
 <script setup>
-const goHome = () => {
-  navigateTo("/");
-};
+
+const handleError = () =>{
+  clearError({
+    redirect:"/"
+  })
+}
 
 const error = useError();
 
