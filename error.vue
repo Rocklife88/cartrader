@@ -24,9 +24,6 @@
 </template>
 
 <script setup>
-const goHome = () => {
-  navigateTo("/");
-};
 
 const handleError = () =>{
   clearError({
