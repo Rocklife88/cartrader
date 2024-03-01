@@ -7,7 +7,16 @@ export default {
     extend: {},
   },
   plugins: [],
-  darkMode: 'class'
+  darkMode: 'class',
   
+  
+}
+
+module.exports = {
+
+  plugins: [
+      require('flowbite/plugin')
+  ]
+
 }
 

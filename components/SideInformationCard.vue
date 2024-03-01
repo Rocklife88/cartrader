@@ -1,42 +1,59 @@
 <template>
-  <div class="shadow border w-80 mr-10 z-30 h-[190px]">
-    <div class="p-5 flex justify-between relative cursor-pointer border-b">
+  <div class="shadow border round-sm w-2/3 mr-10 z-30 h-[190px]">
+    <div class="p-5 flex justify-between items-center relative cursor-pointer border-b">
       <h3>Location</h3>
       <h3 @click="updateModal('location')" class="text-blue-400 capitalize">
         {{ route.params.city }}
       </h3>
 
-
-      <div
-        v-if="modal.location"
-        class="absolute border shadow left-56 p-5 top-1 m-1 bg-white"
-      >
-        <input v-model="city" type="text" class="border p-1 rounded" />
-        <button
-          @click="onLocationChange()"
-          class="bg-blue-400 w-full mt-2 rounded text-white p-1"
-        >
-          Apply
-        </button>
+      <!-- Location -->
+      <div v-if="modal.location">
+        <Dialogue :visible="modal.location" title="Location" @close-dialog="modal.location=!modal.location">
+          <div class="border shadow  p-5 top-1 m-1 bg-white flex flex-col items-center">
+            <input v-model="city" type="text" class="border  text-center rounded" />
+            <button
+              @click="onLocationChange()"
+              class="bg-blue-400 w-full text-center mt-2 rounded text-white px-4 py-2"
+            >
+              Apply
+            </button>
+          </div>
+        </Dialogue>
       </div>
+      <!-- Location -->
+
+      <!-- Make -->
+      <div v-if="modal.make">
+        <Dialogue :visible="modal.make" title="make"  @close-dialog="modal.make=!modal.make">
+          <div class="flex flex-col w-full space-y-1  p-5 top-1 m-1 bg-white text-black">
+            <p v-for="car in cars" :key="make" class="border p-2 rounded" @click="navigateTo(`/car/${car.make}/car`)">
+              {{ car.make }}
+            </p>
+          </div>
+        </Dialogue>
+      </div>
+      <!-- Make end -->
     </div>
-    <div class="p-5 flex justify-between relative cursor-pointer border-b">
+    <div class="p-5 flex justify-between items-center relative cursor-pointer border-b ">
       <h3>Make</h3>
-      <h3 class="text-blue-400 capitalize">Toyota</h3>
+      <h3 @click="updateModal('make')" class="text-blue-400 capitalize">
+        Toyota
+      </h3>
     </div>
-    <div class="p-5 flex justify-between relative cursor-pointer">
+    <div class="p-5 flex justify-between items-center relative cursor-pointer">
       <h3>Price</h3>
-      <h3 class="text-blue-400 capitalize">12678</h3>
+      <h3 class="text-blue-400 capitalize ">12678</h3>
     </div>
   </div>
 </template>
 
 <script setup>
-const route = useRoute();
-const city = ref("");
 
-//creo un oggetto modale con tre chiavi che si apre a seconda della verifica booleana e una funzione updatemodal che chiede
-// una key(make, location price)
+const city = ref("");
+const { cars } = useCars();
+const route = useRoute();
+const carId= route.params.id
+
 
 const modal = ref({
   make: false,
@@ -51,15 +68,14 @@ const updateModal = (key) => {
 const onLocationChange = () => {
   if (!city.value) return;
   if (!isNaN(parseInt(city.value))) {
-    throw createError({
-      statusCode: 400,
-      message: "Invalid city format",
-    });
+    throw new Error("Invalid city format");
   }
-  {
-    updateModal("location");
-    navigateTo(`/city/${city.value}/car/${route.params.make}`);
-    city.value = "";
-  }
+  updateModal("location");
+  city.value = "";
 };
+
+const onMakeChange = () => {
+  updateModal("make");
+};
+
 </script>

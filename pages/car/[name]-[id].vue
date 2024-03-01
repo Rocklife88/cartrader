@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto container-fluid  p-3" v-if="car">
+  <div class="p-8 container-fluid w-90 " v-if="car">
     <DetailHero :car="car" />
     <DetailInfos :car="car"/>
     <DetailDescription :description="car.description" />

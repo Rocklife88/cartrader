@@ -7,7 +7,9 @@
       "seats": 5,
       "miles": "14,666",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam!"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam!",
+      "make":"Range Rover",
+      "city":"Lucca"
     },
     {
       "id": 2,
@@ -17,7 +19,8 @@
       "seats": 5,
       "miles": "53,666",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et laboriosam! Numquam ut rem, blanditiis est rerum tenetur maxime delectus",
+      "make":"Rolls Royce"
     },
     {
       "id": 3,
@@ -27,7 +30,9 @@
       "seats": 5,
       "miles": "0",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Porsche",
+      "city":"Lucca"
     },
     {
       "id": 4,
@@ -37,7 +42,9 @@
       "seats": 5,
       "miles": "9,999",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Mercedes",
+      "city":"Bassano del Grappa"
     },
     {
       "id": 5,
@@ -47,7 +54,8 @@
       "seats": 5,
       "miles": "20,000",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"BMW"
     },
     {
       "id": 6,
@@ -57,7 +65,9 @@
       "seats": 7,
       "miles": "12,345",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Audi",
+      "city":"Verona"
     },
     {
       "id": 7,
@@ -67,7 +77,9 @@
       "seats": 7,
       "miles": "15,000",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Tesla",
+      "city":"CastelFranco Veneto"
     },
     {
       "id": 8,
@@ -77,7 +89,9 @@
       "seats": 5,
       "miles": "8,888",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Lamborghini",
+      "city":"Livorno"
     },
     {
       "id": 9,
@@ -87,7 +101,9 @@
       "seats": 2,
       "miles": "5,000",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Ferrari",
+      "city":"Pisa"
     },
     {
       "id": 10,
@@ -97,7 +113,9 @@
       "seats": 5,
       "miles": "10,000",
       "features": ["No Accidents", "Low KM", "Vehicle Detailed", "Leather Interior"],
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et"
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis odio et",
+      "make":"Bentley",
+      "city":"Lizzano Belvedere"
     }
   
   ]

@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@nuxtjs/color-mode": "^3.3.2",
-    "primevue": "^3.47.0",
+    "flowbite": "^2.3.0",
+    "primevue": "^3.49.1",
     "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
