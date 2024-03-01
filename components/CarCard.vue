@@ -9,10 +9,10 @@
         /> 
         <div class="p-4 flex flex-col justify-between md:w-1/2">
           <div>
-            <h1 class="text-lg md:text-2xl text-blue-700 font-semibold"> {{ car.name }}</h1>
-            <p class="text-gray-600 text-sm mt-2">{{ car.description }}</p>
+            <h1 class="text-lg md:text-2xl text-gray-800 dark:text-white"> {{ car.name }}</h1>
+            <p class="text-gray-600 text-sm mt-2 dark:text-gray-400">{{ car.description }}</p>
           </div>
-          <p class="text-gray-800 text-lg md:text-2xl mt-4"> {{ car.price }}$</p>
+          <p class="text-gray-800 text-lg md:text-2xl mt-4 dark:text-gray-200"> {{ car.price }}$</p>
         </div>
       </div>
     </div>

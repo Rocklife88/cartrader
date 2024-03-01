@@ -6,7 +6,7 @@
         {{ route.params.city }}
       </h3>
 
-      <!-- Modal -->
+
       <div
         v-if="modal.location"
         class="absolute border shadow left-56 p-5 top-1 m-1 bg-white"
